@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Disaster-Recovery-Orchestration-Testing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Disaster-Recovery-Orchestration-Testing?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Disaster-Recovery-Orchestration-Testing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Disaster-Recovery-Orchestration-Testing?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Disaster-Recovery-Orchestration-Testing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Disaster-Recovery-Orchestration-Testing?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Disaster-Recovery-Orchestration-Testing/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Disaster-Recovery-Orchestration-Testing" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -65,9 +65,9 @@ Enterprise-grade SaaS and managed cloud solutions for automated failover, cloud 
 
 ## 🔓 Open-Source GitHub Projects
 
-Self-hosted, transparent, and community-driven projects for Kubernetes disaster recovery, chaos-driven recovery drills, and contract-based DR validation. **Sorted strictly by GitHub Star Count (descending)**.
+Self-hosted, transparent, and community-driven projects for Kubernetes disaster recovery, chaos-driven recovery drills, and contract-based DR validation. **Sorted strictly by GitHub Stars_Count (descending)**.
 
-| Project 📦 | Star Count Badge 🌟 | Category / Focus 🎯 | Description & Architectural Highlights 🔍 |
+| Project 📦 | Stars_Count Badge 🌟 | Category / Focus 🎯 | Description & Architectural Highlights 🔍 |
 |:---|:---|:---|:---|
 | **[Restic](https://github.com/restic/restic)** | [![Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) | Secure Storage & Backup Engine | Fast, secure, and cross-platform backup program using client-side cryptography. Deduplicates data chunks across snapshots and serves as the rock-solid storage foundation for numerous Kubernetes DR operators (including Velero and K8up). |
 | **[Velero](https://github.com/vmware-tanzu/velero)** | [![Stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers) | Kubernetes Backup & Migration | The de facto industry standard for Kubernetes disaster recovery, cluster migration, and persistent volume snapshotting. Backs up cluster resources and persistent volumes to Amazon S3, Google Cloud Storage, or Azure Blob. |
@@ -125,7 +125,7 @@ Contributions from the community are warmly welcomed!
 1. **Fork** this repository.
 2. Create a feature branch: `git checkout -b feature/add-new-dr-tool`.
 3. Add or update tool listings in `README.md` adhering to the table format.
-4. Ensure open-source additions include their official GitHub link, description, and star badge (`style=social&color=white`).
+4. Ensure open-source additions include their official GitHub link, description, and Stars_Badge (`style=social&color=white`).
 5. Open a **Pull Request** detailing why the tool should be included.
 
 ---

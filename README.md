@@ -15,22 +15,27 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global Disaster Recovery as a Service (DRaaS) and orchestration market is estimated at **$16B–$17.5B in 2026** and projected to grow beyond **$50B–$70B by the 2030s** at a 20–25% CAGR. The sector is **moderately concentrated at the infrastructure tier**—anchored by hyperscalers (Microsoft, AWS) and consolidated enterprise resilience leaders (Veeam, HPE, Cohesity)—alongside a **highly fragmented long tail** of specialized niche orchestrators and regional managed service providers (MSPs) addressing local data sovereignty and hybrid architectures.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Veeam Disaster Recovery Orchestrator](https://www.veeam.com/)** | One-click orchestration plans with automated testing, isolated test labs, and compliance-ready documentation for VMware and Azure recovery. | Quote-only (enterprise contract) | No free tier; trial via sales |
-| **[Zerto](https://www.zerto.com/)** | Continuous data replication with journal-based recovery and multi-VM failover orchestration. Enables non-disruptive DR testing. | Quote-only (per-VM subscription) | Trial via sales; no self-serve free tier |
-| **[Azure Site Recovery](https://azure.microsoft.com/en-us/products/site-recovery)** | Recovery plans with ordered VM groups and Azure Automation runbook integration. Pay for Azure resources consumed; the service itself is billed per protected instance. | Consumption-based (per protected VM) | No permanent free tier; Azure free account credits apply |
-| **[AWS Elastic Disaster Recovery](https://aws.amazon.com/disaster-recovery/)** | Continuous replication with point-in-time recovery and automated drill execution for EC2 and on-premises workloads. | Pay for underlying AWS resources (staging area, replication) | No free tier for DRS itself; AWS Free Tier applies to some resources |
-| **[Druva](https://www.druva.com/)** | Cloud-native backup and DR with automated recovery orchestration and cyber recovery runbooks. Includes MDDR for threat monitoring of backups. | Quote-only (per TB/month after deduplication) | No free tier; trial via sales |
-| **[Commvault Disaster Recovery](https://www.commvault.com/)** | Enterprise DR orchestration with cleanroom recovery and immutable backups. | Quote-only (enterprise contract) | No free tier; trial via sales |
-| **[Cohesity SiteContinuity](https://www.cohesity.com/)** | Integrated backup and automated DR with policy-driven failover and failback orchestration. | Quote-only (enterprise contract) | No free tier; trial via sales |
+| Product | Company Scale (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Description |
+|---------|------------------------------------|-----------------------|--------------------------|-------------|
+| **[Azure Site Recovery](https://azure.microsoft.com/en-us/products/site-recovery)** | ~$3.89T market cap (Microsoft) | $25.00 / protected instance / month (+ storage & egress) | First 31 days free per protected instance; Azure free account includes $200 credits for 30 days | Recovery plans with ordered VM groups and Azure Automation runbook integration. Pay-as-you-go per protected instance. |
+| **[AWS Elastic Disaster Recovery](https://aws.amazon.com/disaster-recovery/)** | ~$2.88T market cap (Amazon) | $0.028 / source server / hour (~$20.44 / server / month) | No standalone free days; covered under AWS Free Account onboarding credits ($100–$200 credit across AWS services) | Continuous replication with point-in-time recovery and automated drill execution for EC2 and on-premises workloads. |
+| **[Zerto](https://www.zerto.com/)** | ~$64B market cap (Parent: HPE; acquired for $374M) | ~$1,000 / protected VM / year | 14-day free trial supporting up to 15 virtual machines | Continuous data replication with journal-based recovery and multi-VM failover orchestration. Enables non-disruptive DR testing. |
+| **[Veeam Disaster Recovery Orchestrator](https://www.veeam.com/)** | $15B valuation (~$1.7B ARR) | ~$1,800 / year (10-instance VUL pack in Data Platform Premium) | 30-day full-featured free trial of Veeam Data Platform (no credit card required) | One-click orchestration plans with automated testing, isolated test labs, and compliance-ready documentation for VMware and Azure recovery. |
+| **[Cohesity SiteContinuity](https://www.cohesity.com/)** | ~$7B–$9B valuation (~$1.5B revenue) | ~$150–$400 / TB / year (capacity subscription) | 30-day trial for cloud services / DPaaS (enterprise DR drill trial coordinated via sales) | Integrated backup and automated DR with policy-driven failover and failback orchestration. |
+| **[Commvault Disaster Recovery](https://www.commvault.com/)** | ~$6.4B market cap (~$900M ARR) | $58.50 / TB / month (Commvault Cloud SaaS) or ~$98 / VM / year | 30-day free trial with full feature access and zero upfront credit card commitment | Enterprise DR orchestration with cleanroom recovery, automated verification, and immutable backups. |
+| **[Druva](https://www.druva.com/)** | ~$2B valuation (~$200M+ ARR) | ~$200 / TB / month (or $8 / user / month for endpoint tiers) | 30-day free trial with full SaaS platform capability | Cloud-native backup and DR with automated recovery orchestration and cyber recovery runbooks. |
 
 ## Open-Source GitHub Projects
 
